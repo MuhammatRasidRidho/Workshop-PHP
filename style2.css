@@ -1,0 +1,71 @@
+body{
+background:#ccff99; /* atau ditulis #cf9 (kode warna dalam RGB)*/
+font-family:verdana; /* semua huruf di dalam elemen body akan berjenis verdana */
+font-size: 75%; /* semua huruf akan berukuran 70% */
+}
+#header{
+width:800px; /* panjang: 800 pixel */
+margin-right:auto; /* jarak header ke tepi kanan */
+margin-left:auto; /* dan kiri */
+border:2px solid black; /* tebal garis header, style, & warna */
+padding-top:160px; /* jarak di dalam header, posisi dari atas */
+background-image:url(bg.jpg); /* gambar untuk background header */
+background-repeat:no-repeat; /* perulangan munculnya gambar background */
+background-color:#6c3; /* warna background header yang tidak terisi gambar */
+}
+#menu{
+position:absolute; /* agar posisi tidak dipengaruhi padding & margin */
+width: 180px; /* panjang menu: 180 pixel */
+}
+#isi{
+background-color:white;
+margin-left:178px; /* jarak dari tepi kiri ke luar: 178 pixel */
+padding:20px 10px 20px 30px; /* jarak ke dalam, urutan: atas,kanan,bawah,kiri */
+height:auto; /* agar lebar menyesuaikan isi */
+}
+#footer{
+background-color:black;
+padding:20px 0 10px 0;
+color:white; /* warna huruf di dalam elemen footer */
+text-align:center; /* posisi huruf di dalam elemen footer */
+}
+
+#menu ul {
+list-style: none; /* untuk membuang bullet pada tag <li> */
+margin: 0;
+padding: 0;
+border: none;
+}
+#menu li {
+margin: 0;
+padding: 0;
+}
+#menu a:link, #menu a:visited { /* jika menu berupa link */
+display: block;
+padding: 15px 5px 15px 20px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+background-color: #6c3;
+color: #fff;
+text-decoration: none; /* untuk membuang garis bawah pada teks berjenis link */
+}
+#menu a:hover { /* jika menu didekati mouse */
+background-color: #393;
+color: #fff;
+}
+
+table {
+font-size: 9pt;
+border-width: 2px;
+border-style: solid;
+border-color: #063;
+border-collapse: collapse;
+margin: 10px 0px;
+}
+th{
+color: #fff;
+text-transform: uppercase;
+text-align: center;
+padding: 10px;
+background-color: #393;
+}
